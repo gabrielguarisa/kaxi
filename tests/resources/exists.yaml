@@ -4,7 +4,7 @@ steps:
   - uses: os.path.isfile
     name: file_exists
     with:
-      path: example.yaml
+      path: pyproject.toml
 
   - uses: kaxi.log.info
     with:
