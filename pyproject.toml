@@ -4,6 +4,8 @@ version = "0.1.1"
 description = "Run pipelines similar to github actions"
 authors = ["Gabriel Guarisa <gabrielguarisa@gmail.com>"]
 readme = "README.md"
+license = "MIT"
+repository = "https://github.com/gabrielguarisa/kaxi"
 
 [tool.poetry.dependencies]
 python = "^3.8"
