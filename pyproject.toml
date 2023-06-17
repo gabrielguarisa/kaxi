@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "kaxi"
+version = "0.1.0"
+description = "Run pipelines similar to github actions"
+authors = ["Gabriel Guarisa <gabrielguarisa@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+pyyaml = "^6.0"
+typer = "^0.9.0"
+colorlog = "^6.7.0"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^7.3.2"
+pytest-cov = "^4.1.0"
+black = "^23.3.0"
+isort = "^5.12.0"
+
+[tool.poetry.scripts]
+kaxi = "kaxi.main:app"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

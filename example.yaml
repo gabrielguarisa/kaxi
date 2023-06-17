@@ -1,0 +1,12 @@
+verbose: True
+    
+steps:
+  - uses: os.path.isfile
+    name: file_exists
+    with:
+      path: example.yaml
+
+  - uses: kaxi.log.info
+    with:
+      args:
+        - ${file_exists}
